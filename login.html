@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&family=Noto+Serif+TC:wght@200;300;400;500;600;700;900&display=swap"
+        rel="stylesheet">
+    <!-- font-family: 'Noto Sans TC', sans-serif;-->
+    <!-- font-family: 'Noto Serif TC', serif;  -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/login.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="d-flex vh-100 ">
+            <div class="login-left">
+                <div class="logo-landscape d-flex align-items-center">
+                    <div class="logo-small">
+                        <img src="./images/logo.webp" alt="">
+                    </div>
+                    <p class="logo-title">照管家</p>
+                </div>
+                <div class="login-main mx-auto">
+                    <p>後台管理系統</p>
+                    <p>帳號登入</p>
+                    <form class="d-flex flex-column align-items-center  login-form">
+                        <div class="input-group align-self-start w-100">
+                            <p>帳號</p>
+                            <input class="w-100" type="text" placeholder="請輸入帳號">
+                        </div>
+                        <div class="input-group align-self-start w-100 position-relative">
+                            <p>密碼</p>
+                            <input class="w-100" type="password" placeholder="請輸入密碼">
+                            <div class="switch-password-hidden">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                    <defs>
+                                        <filter id="oumt13v4ia">
+                                            <feColorMatrix in="SourceGraphic"
+                                                values="0 0 0 0 0.607892 0 0 0 0 0.607803 0 0 0 0 0.607923 0 0 0 0.600000 0" />
+                                        </filter>
+                                    </defs>
+                                    <g fill="none" fill-rule="evenodd">
+                                        <g>
+                                            <g>
+                                                <g>
+                                                    <g filter="url(#oumt13v4ia)"
+                                                        transform="translate(-504.000000, -654.000000) translate(0.000000, -2.000000) translate(143.000000, 464.000000) translate(0.000000, 134.000000)">
+                                                        <g>
+                                                            <path d="M0 0L24 0 24 24 0 24z"
+                                                                transform="translate(361.000000, 58.000000)" />
+                                                            <path fill="#000" fill-rule="nonzero"
+                                                                d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"
+                                                                transform="translate(361.000000, 58.000000)" />
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </svg>
+
+                            </div>
+                        </div>
+                        <div class="input-group align-self-end saved-pass">
+                            <input type="checkbox">
+                            <span>記住密碼</span>
+                        </div>
+                        <a class="login-btn" href="#">登入</a>
+                        <div class="input-group">
+                            <span class="not-member-span">還不是會員？</span> <a class="sign-up-link" href="#">註冊新會員</a>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+            <div class="login-right mh-1024">
+                <div class="logo-g mx-auto">
+                    <img src="./images/logo-g@2x.webp" alt="">
+                </div>
+                <p class="slogan mx-auto">長照管理 都抵家</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

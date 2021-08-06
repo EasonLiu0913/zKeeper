@@ -1,0 +1,124 @@
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexyen.css);
+
+.login-left{
+    width: 47.84%;
+    background-color: #fff;
+}
+
+.login-right{
+    width: 52.15%;
+    background-color: #ccc;
+    background-image: url("../my-images/mountain-4829217_1920.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:right 70% ;
+    filter: brightness(150%);
+}
+
+.logo-landscape{
+    margin-top:28px;
+    margin-left:31px;
+    margin-bottom:209px;
+}
+
+.logo-title{
+    font-family:'Noto Sans TC', serif;
+    margin-left:6px;
+    font-size: 1.6rem;
+}
+
+.login-main{
+    width: 400px;
+}
+
+.login-main > p:nth-child(1){
+    font-size: 2rem;
+    color:#6b6c71;
+}
+
+.login-main > p:nth-child(2){
+    font-size: 1.2rem;
+    color:var(--myGreen);
+    margin-bottom: 79px;
+}
+
+.input-group:nth-child(1){
+    margin-bottom: 40px;
+}
+
+.input-group:nth-child(2){
+    margin-bottom: 24px;
+}
+
+.input-group > p {
+    margin-bottom: 18px;
+}
+
+input {padding:11px 15px; background:#fff; border:1px solid #ccc;
+cursor:pointer;
+-webkit-border-radius: 5px;
+border-radius: 5px; 
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color:#ccc;
+    opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color:#ccc;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color:#ccc;
+}
+
+.switch-password-hidden{
+    position: absolute;
+    right: 15px;
+    bottom: 2px;
+}
+
+.saved-pass{
+    margin-bottom: 67px;
+}
+
+.login-btn{
+    width: 100%;
+    line-height: 48px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: var(--myGreen);
+    margin-bottom: 18px;
+}
+
+.not-member-span{
+    font-size: .875rem;
+    color:var(--myGray);
+}
+
+.sign-up-link{
+    font-size: .875rem;
+    color: var(--myGreen);
+}
+
+.logo-g{
+    width: 210px;
+    height: 215px;
+    margin-top:381px;
+    margin-bottom: 200px;
+}
+
+.logo-g img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+    
+.slogan{
+    width: fit-content;
+    font-family: 'cwTeXYen', sans-serif;
+    font-weight: 800;
+    font-size: 2rem;
+}

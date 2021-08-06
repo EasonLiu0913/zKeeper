@@ -1,0 +1,65 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --myGreen:#5d9c6b;
+    --myGray:#9b9b9b;
+}
+
+.position-relative{
+    position: relative;
+}
+
+.position-absolute{
+    position: absolute;
+}
+
+.container{
+    max-width: 1440px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.w-100{
+    width: 100%;;
+}
+
+.vh-100{
+    height: 100vh;
+}
+
+.mh-1024{
+    min-height:1024px;
+}
+
+.mx-auto{
+    margin-left: auto;
+    margin-right:auto;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.flex-column{
+    flex-direction: column;
+}
+
+.justifiy-content-center{
+    justify-content: center;
+}
+
+.align-items-center{
+    align-items: center;
+}
+
+.align-self-start{
+    align-self: flex-start;
+}
+
+.align-self-end{
+    align-self: flex-end;
+}
