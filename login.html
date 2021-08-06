@@ -37,7 +37,7 @@
                         </div>
                         <div class="input-group align-self-start w-100 position-relative">
                             <p>密碼</p>
-                            <input class="w-100" type="password" placeholder="請輸入密碼">
+                            <input id="input-password" class="w-100" type="password" placeholder="請輸入密碼">
                             <div class="switch-password-hidden">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                                     <defs>
@@ -88,6 +88,21 @@
             </div>
         </div>
     </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+    <script>
+        $('.switch-password-hidden').on('click', function () {
+            if ($('#input-password').attr('type') === 'password') {
+                $('#input-password').attr('type', 'text');
+            }
+            else {
+                $('#input-password').attr('type', 'password');
+            }
+
+        });
+    </script>
 </body>
 
 </html>
